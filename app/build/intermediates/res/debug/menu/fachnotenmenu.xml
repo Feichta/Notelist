@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fachnotenmenu_noten_loeschen"
+        android:title="@string/fachnotenmenu_noten_loeschen"></item>
+
+    <item
+        android:id="@+id/fachnotenmenu_exportieren"
+        android:title="@string/fachnotenmenu_exportieren"></item>
+
+    <item
+        android:id="@+id/fachnotenmenu_importieren"
+        android:title="@string/fachnotenmenu_importieren"></item>
+
+    <item
+        android:id="@+id/fachnotenmenu_ueber"
+        android:title="@string/fachnotenmenu_ueber"></item>
+
+</menu><!-- From: file:/C:/Users/Fabian/Desktop/AndroidStudioProjects/Android%20Fortgeschrittene%20Benutzerschnitstellenerstellung/app/src/main/res/menu/fachnotenmenu.xml -->

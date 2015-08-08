@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- GLOBAL -->
+    <string name="ok">OK</string>
+    <string name="abbrechen">Cancellare</string>
+    <string name="warnung">ATTENZIONE!</string>
+    <string name="error">Errore</string>
+    <string name="version">1.0</string>
+
+    <!-- APP -->
+    <string name="app_name">Elenco voti</string>
+
+    <!-- NOTENAPPMAIN -->
+    <string name="notenappmain_titel">Argomenti scolastici</string>
+    <string name="notenappmain_durchschnitt">Media:</string>
+    <string name="notenappmain_backup_erfolgreich">Backup creato con successo in</string>
+    <string name="notenappmain_import_erfolgreich">Import di successo</string>
+    <string name="notenappmain_backup_berechtigung">Il permesso di scrivere nella memoria non è presente</string>
+    <string name="notenappmain_backup_nicht_vorhanden">Nessun backup trovata in</string>
+
+    <!-- NOTENAPPMAINMENU -->
+    <string name="notenappmainmenu_alle_faecher_loeschen">Vuoi eliminare tutti i soggetti ed i loro voti?\n\nQuesto non può essere annullata.</string>
+    <string name="notenappmainmenu_importieren">Sei sicuro di voler sovrascrivere i soggetti e voti attuali?\n\nQuesto non può essere annullata.</string>
+
+    <!-- FACHNOTENMAIN -->
+    <string name="fachnotenmain_durchschnitt">Media di</string>
+
+    <!-- FACHNOTENMAINMENU -->
+    <string name="fachnotenmainmenu_alle_noten_loeschen">Vuoi eliminare tutti voti di questo argomento?\n\nQuesto non può essere annullata.</string>
+    <string name="fachnotenmainmenu_importieren">Sei sicuro di voler sovrascrivere i soggetti e voti attuali?\n\nQuesto non può essere annullata.</string>
+
+    <!-- FACHNEUAENDERN -->
+    <string name="fachneuaendern_fachhinzufuegen">Aggiungere materia scolastica</string>
+    <string name="fachneuaendern_fachaendern">Cambiare materia scolastica</string>
+    <string name="fachneuaendern_fertig">Finito</string>
+    <string name="fachneuaendern_namefach">Nome della materia scolastica</string>
+    <string name="fachneuaendern_namelehrperson">Nome dell\' insegnante</string>
+
+    <!-- NOTENEUAENDERN -->
+    <string name="noteneuaendern_neue_note">Nuovo voto</string>
+    <string name="noteneuaendern_note_aendern">Cambiare voto</string>
+    <string name="noteneuaendern_fertig">Finito</string>
+    <string name="noteneuaendern_beschreibung">Descrizione</string>
+    <string name="noteneuaendern_note">Voto</string>
+    <string name="noteneuaendern_gewichtung">Ponderazione</string>
+    <string name="noteneuaendern_datum">Data</string>
+
+    <!-- FACHNAENDERNLOESCHENMENU -->
+    <string name="fachaendernloeschenmenu_fach_loeschen">Eliminare materia scolastica</string>
+    <string name="fachaendernloeschenmenu_fach_aendern">Cambiare materia scolastica</string>
+
+    <!-- FACHNOTENMENU-->
+    <string name="fachnotenmenu_noten_loeschen">Eliminare tutti voti di questa materia scolastica</string>
+    <string name="fachnotenmenu_exportieren">Esportazione</string>
+    <string name="fachnotenmenu_importieren">Importazione</string>
+    <string name="fachnotenmenu_ueber">Informazioni</string>
+
+    <!-- NOTEAENDERNLOESCHEN-->
+    <string name="noteaendernloeschenmenu_note_aendern">Cambiare voto</string>
+    <string name="noteaendernloeschenmenu_note_loeschen">Eliminare voto</string>
+
+    <!-- NOTENAPPMENU-->
+    <string name="notenappmenu_faecher_loeschen">Rimuovere tutte le materie scolastiche</string>
+    <string name="notenappmenu_exportieren">Esportazione</string>
+    <string name="notenappmenu_importieren">Importazione</string>
+    <string name="notenappmenu_ueber">Informazioni</string>
+
+    <!-- FEHLERMELDUNGEN -->
+    <string name="fehler_eingabe_erforderlich">Input richiesto</string>
+    <string name="fehler_fachname_bereits_vorhanden">Materia scolastica già disponibile</string>
+    <string name="fehler_note_zu_hoch">Voto non valido</string>
+
+    <!-- UEBERADAPTER -->
+    <string name="ueberactivity_version">Version</string>
+    <string name="ueberactivity_entwickler">Sviluppatore</string>
+    <string name="ueberactivity_website">Website</string>
+    <string name="ueberactivity_email">E-Mail</string>
+    <string name="ueberactivity_bewerten">Valuta questa app</string>
+
+    <!-- UEBERACTIVITY -->
+    <string name="ueberactivity_titel">Informazioni su elenco voti</string>
+
+</resources>

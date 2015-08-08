@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- GLOBAL -->
+    <string name="ok">OK</string>
+    <string name="abbrechen">Abbrechen</string>
+    <string name="warnung">WARNUNG!</string>
+    <string name="error">Fehler</string>
+    <string name="version">1.0</string>
+
+    <!-- APP -->
+    <string name="app_name">Notenliste</string>
+
+    <!-- NOTENAPPMAIN -->
+    <string name="notenappmain_titel">Fächer</string>
+    <string name="notenappmain_durchschnitt">Durchschnitt:</string>
+    <string name="notenappmain_backup_erfolgreich">Backup erfolgreich erstellt in</string>
+    <string name="notenappmain_import_erfolgreich">Import erfolgreich</string>
+    <string name="notenappmain_backup_berechtigung">Berechtigung zum Schreiben auf den Speicher fehlt</string>
+    <string name="notenappmain_backup_nicht_vorhanden">Kein Backup gefunden in</string>
+
+    <!-- NOTENAPPMAINMENU -->
+    <string name="notenappmainmenu_alle_faecher_loeschen">Möchten Sie alle Fächer mit ihren Noten löschen?\n\nDies kann nicht mehr rückgängig gemacht werden.</string>
+    <string name="notenappmainmenu_importieren">Möchten Sie ihre aktuellen Fächer und Noten wirklich überschreiben?\n\nDies kann nicht mehr rückgängig gemacht werden.</string>
+
+    <!-- FACHNOTENMAIN -->
+    <string name="fachnotenmain_durchschnitt">Durchschnitt in</string>
+
+    <!-- FACHNOTENMAINMENU -->
+    <string name="fachnotenmainmenu_alle_noten_loeschen">Möchten Sie alle Noten von diesem Fach löschen?\n\nDies kann nicht mehr rückgängig gemacht werden.</string>
+    <string name="fachnotenmainmenu_importieren">Möchten Sie ihre aktuellen Fächer und Noten wirklich überschreiben?\n\nDies kann nicht mehr rückgängig gemacht werden.</string>
+
+    <!-- FACHNEUAENDERN -->
+    <string name="fachneuaendern_fachhinzufuegen">Fach hinzufügen</string>
+    <string name="fachneuaendern_fachaendern">Fach ändern</string>
+    <string name="fachneuaendern_fertig">Fertig</string>
+    <string name="fachneuaendern_namefach">Name des Faches</string>
+    <string name="fachneuaendern_namelehrperson">Name der Lehrperson</string>
+
+    <!-- NOTENEUAENDERN -->
+    <string name="noteneuaendern_neue_note">Neue Note</string>
+    <string name="noteneuaendern_note_aendern">Note ändern</string>
+    <string name="noteneuaendern_fertig">Fertig</string>
+    <string name="noteneuaendern_beschreibung">Beschreibung</string>
+    <string name="noteneuaendern_note">Note</string>
+    <string name="noteneuaendern_gewichtung">Gewichtung</string>
+    <string name="noteneuaendern_datum">Datum</string>
+
+    <!-- FACHNAENDERNLOESCHENMENU -->
+    <string name="fachaendernloeschenmenu_fach_loeschen">Fach löschen</string>
+    <string name="fachaendernloeschenmenu_fach_aendern">Fach ändern</string>
+
+    <!-- FACHNOTENMENU-->
+    <string name="fachnotenmenu_noten_loeschen">Alle Noten von diesem Fach löschen</string>
+    <string name="fachnotenmenu_exportieren">Exportieren</string>
+    <string name="fachnotenmenu_importieren">Importieren</string>
+    <string name="fachnotenmenu_ueber">Über</string>
+
+    <!-- NOTEAENDERNLOESCHEN-->
+    <string name="noteaendernloeschenmenu_note_aendern">Note ändern</string>
+    <string name="noteaendernloeschenmenu_note_loeschen">Note löschen</string>
+
+    <!-- NOTENAPPMENU-->
+    <string name="notenappmenu_faecher_loeschen">Alle Fächer löschen</string>
+    <string name="notenappmenu_exportieren">Exportieren</string>
+    <string name="notenappmenu_importieren">Importieren</string>
+    <string name="notenappmenu_ueber">Über</string>
+
+    <!-- FEHLERMELDUNGEN -->
+    <string name="fehler_eingabe_erforderlich">Eingabe erforderlich</string>
+    <string name="fehler_fachname_bereits_vorhanden">Fach bereits vorhanden</string>
+    <string name="fehler_note_zu_hoch">Ungültige Note</string>
+
+    <!-- UEBERADAPTER -->
+    <string name="ueberactivity_version">Version</string>
+    <string name="ueberactivity_entwickler">Entwickler</string>
+    <string name="ueberactivity_website">Website</string>
+    <string name="ueberactivity_email">E-Mail</string>
+    <string name="ueberactivity_bewerten">Bewerte diese App</string>
+
+    <!-- UEBERACTIVITY -->
+    <string name="ueberactivity_titel">Über Notenliste</string>
+
+</resources>

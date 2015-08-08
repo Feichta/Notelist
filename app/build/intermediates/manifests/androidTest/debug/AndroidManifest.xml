@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ffeichta.notenliste.test">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false" android:handleProfiling="false"
+        android:label="Tests for com.ffeichta.notenliste"
+        android:targetPackage="com.ffeichta.notenliste" />
+</manifest>

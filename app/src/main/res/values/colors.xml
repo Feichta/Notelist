@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="primary">#4CC417</color>
+    <color name="primary_dark">#48942B</color>
+    <color name="average">#74EC3F</color>
+    <color name="text_primary">#5C5858</color>
+    <color name="text_secondary">#5C5858</color>
+    <color name="background">#FAFAFA</color>
+    <color name="averageText">#787878</color>
+    <color name="title">#FFFFFF</color>
+    <color name="yellow_button">#EFFF09</color>
+
+</resources>
