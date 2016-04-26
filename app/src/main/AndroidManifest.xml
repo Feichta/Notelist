@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ffeichta.notenliste.gui"
-    android:versionCode="1"
-    android:versionName="1.0">
+<manifest package="com.ffeichta.notenliste.gui"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:versionCode="2"
+          android:versionName="1.0.1">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -16,8 +16,8 @@
         <activity android:name=".NotenAppActivity">
 
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
 
             </intent-filter>
 
@@ -25,21 +25,21 @@
 
         <activity
             android:name=".FachNeuAendernActivity"
-            android:theme="@style/AppThemeWithoutActionBar" />
+            android:theme="@style/AppThemeWithoutActionBar"/>
 
         <activity
             android:name=".FachNotenActivity"
             android:launchMode="singleTop"
-            android:parentActivityName=".NotenAppActivity" />
+            android:parentActivityName=".NotenAppActivity"/>
 
         <activity
             android:name=".NoteNeuAendernActivity"
             android:parentActivityName=".FachNotenActivity"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"/>
 
         <activity
             android:name=".UeberActivity"
-            android:label="@string/ueberactivity_titel" />
+            android:label="@string/ueberactivity_titel"/>
 
     </application>
 
