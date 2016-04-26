@@ -1,0 +1,1108 @@
+[
+    {
+        "outputFile": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 274
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1704,
+                        "endLine": 35,
+                        "endColumn": 12,
+                        "endOffset": 1926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 279,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 978
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 61,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 983,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1206
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1470,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 1696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1211,
+                    "endLine": 30,
+                    "endColumn": 12,
+                    "endOffset": 1886
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 778,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1462
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1891,
+                    "endColumn": 90,
+                    "endOffset": 1977
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1982,
+                    "endColumn": 102,
+                    "endOffset": 2080
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2085,
+                    "endColumn": 102,
+                    "endOffset": 2183
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2188,
+                    "endColumn": 104,
+                    "endOffset": 2288
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2293,
+                    "endColumn": 106,
+                    "endOffset": 2395
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2400,
+                    "endColumn": 108,
+                    "endOffset": 2504
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2509,
+                    "endColumn": 108,
+                    "endOffset": 2613
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2618,
+                    "endColumn": 108,
+                    "endOffset": 2722
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2727,
+                    "endColumn": 108,
+                    "endOffset": 2831
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2836,
+                    "endColumn": 108,
+                    "endOffset": 2940
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2945,
+                    "endColumn": 106,
+                    "endOffset": 3047
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3052,
+                    "endColumn": 102,
+                    "endOffset": 3150
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3155,
+                    "endColumn": 118,
+                    "endOffset": 3269
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3274,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 3424
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3429,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 3579
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3584,
+                    "endColumn": 104,
+                    "endOffset": 3684
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3689,
+                    "endColumn": 120,
+                    "endOffset": 3805
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3810,
+                    "endColumn": 100,
+                    "endOffset": 3906
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3911,
+                    "endLine": 52,
+                    "endColumn": 12,
+                    "endOffset": 4053
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4058,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 4194
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4199,
+                    "endColumn": 102,
+                    "endOffset": 4297
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4302,
+                    "endColumn": 118,
+                    "endOffset": 4416
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4421,
+                    "endColumn": 106,
+                    "endOffset": 4523
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4528,
+                    "endColumn": 102,
+                    "endOffset": 4626
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4631,
+                    "endLine": 60,
+                    "endColumn": 12,
+                    "endOffset": 4773
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 4778,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 4928
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 4933,
+                    "endLine": 64,
+                    "endColumn": 12,
+                    "endOffset": 5099
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 5104,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 5248
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 5253,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 5413
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 5418,
+                    "endLine": 70,
+                    "endColumn": 12,
+                    "endOffset": 5570
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 5575,
+                    "endLine": 72,
+                    "endColumn": 12,
+                    "endOffset": 5721
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 5726,
+                    "endLine": 74,
+                    "endColumn": 12,
+                    "endOffset": 5870
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 5875,
+                    "endLine": 76,
+                    "endColumn": 12,
+                    "endOffset": 6019
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 6024,
+                    "endColumn": 111,
+                    "endOffset": 6131
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 6136,
+                    "endColumn": 146,
+                    "endOffset": 6278
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 6283,
+                    "endLine": 80,
+                    "endColumn": 12,
+                    "endOffset": 6431
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 6436,
+                    "endLine": 82,
+                    "endColumn": 12,
+                    "endOffset": 6578
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 6583,
+                    "endColumn": 74,
+                    "endOffset": 6653
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 6658,
+                    "endColumn": 88,
+                    "endOffset": 6742
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 6747,
+                    "endColumn": 86,
+                    "endOffset": 6829
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 6834,
+                    "endColumn": 100,
+                    "endOffset": 6930
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 6935,
+                    "endLine": 90,
+                    "endColumn": 12,
+                    "endOffset": 7195
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 7200,
+                    "endLine": 96,
+                    "endColumn": 12,
+                    "endOffset": 7559
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 7564,
+                    "endLine": 105,
+                    "endColumn": 12,
+                    "endOffset": 7998
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 8003,
+                    "endLine": 115,
+                    "endColumn": 12,
+                    "endOffset": 8535
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 8540,
+                    "endLine": 124,
+                    "endColumn": 12,
+                    "endOffset": 8976
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 8981,
+                    "endLine": 160,
+                    "endColumn": 12,
+                    "endOffset": 11548
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 11553,
+                    "endLine": 196,
+                    "endColumn": 12,
+                    "endOffset": 14135
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 14140,
+                    "endLine": 232,
+                    "endColumn": 12,
+                    "endOffset": 16719
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 16724,
+                    "endLine": 268,
+                    "endColumn": 12,
+                    "endOffset": 19318
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 19323,
+                    "endLine": 270,
+                    "endColumn": 12,
+                    "endOffset": 19441
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 19446,
+                    "endLine": 272,
+                    "endColumn": 12,
+                    "endOffset": 19564
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 19569,
+                    "endLine": 274,
+                    "endColumn": 12,
+                    "endOffset": 19677
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 19682,
+                    "endLine": 276,
+                    "endColumn": 12,
+                    "endOffset": 19810
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 19815,
+                    "endLine": 278,
+                    "endColumn": 12,
+                    "endOffset": 19941
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 19946,
+                    "endColumn": 116,
+                    "endOffset": 20058
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 20063,
+                    "endColumn": 88,
+                    "endOffset": 20147
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 20152,
+                    "endColumn": 100,
+                    "endOffset": 20248
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 20253,
+                    "endColumn": 116,
+                    "endOffset": 20365
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 20370,
+                    "endLine": 284,
+                    "endColumn": 12,
+                    "endOffset": 20500
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 20505,
+                    "endLine": 286,
+                    "endColumn": 12,
+                    "endOffset": 20643
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 20648,
+                    "endLine": 288,
+                    "endColumn": 12,
+                    "endOffset": 20778
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 20783,
+                    "endLine": 290,
+                    "endColumn": 12,
+                    "endOffset": 20897
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 20902,
+                    "endLine": 294,
+                    "endColumn": 12,
+                    "endOffset": 21098
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 21103,
+                    "endLine": 296,
+                    "endColumn": 12,
+                    "endOffset": 21217
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 21222,
+                    "endColumn": 110,
+                    "endOffset": 21328
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 21333,
+                    "endColumn": 97,
+                    "endOffset": 21426
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 21431,
+                    "endLine": 300,
+                    "endColumn": 12,
+                    "endOffset": 21533
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 21538,
+                    "endLine": 304,
+                    "endColumn": 12,
+                    "endOffset": 21728
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 21733,
+                    "endLine": 306,
+                    "endColumn": 12,
+                    "endOffset": 21839
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 21844,
+                    "endLine": 308,
+                    "endColumn": 12,
+                    "endOffset": 21972
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 21977,
+                    "endColumn": 94,
+                    "endOffset": 22067
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 22072,
+                    "endColumn": 90,
+                    "endOffset": 22158
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 22163,
+                    "endLine": 315,
+                    "endColumn": 12,
+                    "endOffset": 22467
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 22472,
+                    "endColumn": 112,
+                    "endOffset": 22580
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 22585,
+                    "endColumn": 116,
+                    "endOffset": 22697
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 22702,
+                    "endLine": 319,
+                    "endColumn": 12,
+                    "endOffset": 22836
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 22841,
+                    "endLine": 323,
+                    "endColumn": 12,
+                    "endOffset": 23032
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 23037,
+                    "endLine": 327,
+                    "endColumn": 12,
+                    "endOffset": 23242
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 23247,
+                    "endLine": 331,
+                    "endColumn": 12,
+                    "endOffset": 23450
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 23455,
+                    "endLine": 335,
+                    "endColumn": 12,
+                    "endOffset": 23672
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-v21\\values.xml"
+                }
+            }
+        ]
+    }
+]
