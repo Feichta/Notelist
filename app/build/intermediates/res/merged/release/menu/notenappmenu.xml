@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/notenappmenu_faecher_loeschen"
+        android:title="@string/notenappmenu_faecher_loeschen"></item>
+
+    <item
+        android:id="@+id/notenappmenu_exportieren"
+        android:title="@string/notenappmenu_exportieren"></item>
+
+    <item
+        android:id="@+id/notenappmenu_importieren"
+        android:title="@string/notenappmenu_importieren"></item>
+
+    <item
+        android:id="@+id/notenappmenu_ueber"
+        android:title="@string/notenappmenu_ueber"></item>
+
+</menu>
