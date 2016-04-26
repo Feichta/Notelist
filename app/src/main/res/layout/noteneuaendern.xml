@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="15dp"
-    android:layout_marginRight="15dp"
-    android:layout_marginTop="15dp"
-    android:orientation="vertical">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:layout_marginTop="15dp"
+              android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:text="Neu/Ändern"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
 
         <Button
             android:id="@+id/neuenote_button"
@@ -29,7 +29,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:text="@string/noteneuaendern_fertig" />
+            android:text="@string/noteneuaendern_fertig"/>
 
     </RelativeLayout>
 
@@ -52,7 +52,7 @@
                 android:layout_alignRight="@+id/noteneuaendern_titel"
                 android:layout_centerVertical="true"
                 android:text="@string/noteneuaendern_beschreibung"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
 
             <EditText
                 android:id="@+id/noteneuaendern_beschreibung"
@@ -68,7 +68,7 @@
                 android:maxLines="1"
                 android:singleLine="true">
 
-                <requestFocus />
+                <requestFocus/>
 
             </EditText>
 
@@ -82,7 +82,7 @@
                 android:text="Small Text"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="#f00"
-                android:visibility="gone" />
+                android:visibility="gone"/>
 
             <TextView
                 android:id="@+id/noteneuaendern_beschreibung_note"
@@ -93,7 +93,7 @@
                 android:layout_alignTop="@+id/noteneuaendern_note"
                 android:layout_marginTop="15dp"
                 android:text="@string/noteneuaendern_note"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
 
             <EditText
                 android:id="@+id/noteneuaendern_note"
@@ -106,7 +106,7 @@
                 android:inputType="numberDecimal"
                 android:maxLength="30"
                 android:maxLines="1"
-                android:singleLine="true" />
+                android:singleLine="true"/>
 
             <TextView
                 android:id="@+id/noteneuaendern_fehler_note"
@@ -118,7 +118,7 @@
                 android:text="Small Text"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="#f00"
-                android:visibility="gone" />
+                android:visibility="gone"/>
 
             <TextView
                 android:id="@+id/notenueandern_beschreibung_gewichtung"
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:text="@string/noteneuaendern_gewichtung"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -140,19 +140,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
-                    android:layout_weight="0.94"
+                    android:layout_weight="0.9"
                     android:gravity="center_vertical"
                     android:text="100%"
                     android:textAlignment="gravity"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
 
                 <SeekBar
                     android:id="@+id/noteneuaendern_gewichtung"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.06"
+                    android:layout_weight="0.1"
                     android:max="39"
-                    android:progress="19" />
+                    android:progress="19"/>
 
             </LinearLayout>
 
@@ -163,7 +163,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="15dp"
                 android:text="@string/noteneuaendern_datum"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
 
             <DatePicker
                 android:id="@+id/noteneuaendern_date"
@@ -171,7 +171,9 @@
                 android:layout_height="match_parent"
                 android:layout_alignBottom="@+id/noteneuaendern_fehler_beschreibung"
                 android:layout_alignLeft="@+id/noteneuaendern_beschreibung"
-                android:layout_alignStart="@+id/noteneuaendern_beschreibung" />
+                android:layout_alignStart="@+id/noteneuaendern_beschreibung"
+                android:datePickerMode="calendar"
+                android:theme="@style/AppThemDatePicker"/>
 
         </LinearLayout>
 

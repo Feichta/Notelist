@@ -10,18 +10,28 @@
         <item name="android:navigationBarColor">@color/primary_dark</item>
         <item name="android:windowBackground">@color/background</item>
         <item name="android:editTextColor">@color/text_primary</item>
-
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:alertDialogTheme">@style/AppThemeDialog</item>
     </style>
 
     <style name="AppThemeWithoutActionBar" parent="android:Theme.Material.Light.Dialog.NoActionBar.MinWidth">
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
-        <item name="android:textColorPrimary">@color/title</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
         <item name="android:textColor">@color/text_secondary</item>
         <item name="android:navigationBarColor">@color/primary_dark</item>
         <item name="android:windowBackground">@color/background</item>
         <item name="android:editTextColor">@color/text_primary</item>
-
+        <item name="android:colorAccent">@color/primary</item>
     </style>
 
+    <style name="AppThemeDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:colorAccent">@color/primary</item>
+    </style>
+
+    <style name="AppThemDatePicker" parent="android:Theme.Material.Light">
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:colorAccent">@color/primary</item>
+    </style>
 </resources>
