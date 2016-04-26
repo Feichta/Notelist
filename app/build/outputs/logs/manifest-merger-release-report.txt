@@ -25,8 +25,13 @@ ADDED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\A
 		ADDED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\AndroidManifest.xml:8:22-77
 application
 ADDED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\AndroidManifest.xml:10:5-44:19
-MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\AndroidManifest.xml:13:9-41
 	android:allowBackup
@@ -79,8 +84,15 @@ ADDED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\A
 		ADDED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\AndroidManifest.xml:41:13-42
 uses-sdk
 INJECTED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\src\main\AndroidManifest.xml

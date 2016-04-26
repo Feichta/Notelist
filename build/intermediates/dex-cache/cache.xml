@@ -1,3 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_bc306b2fd41755ee72256f0ac293b62448574002.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_d565850822a252041c93d63e86dbb5abd23b42be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_ba97ce6e4bd9ec89a3b05837796a56c51dfa0c02.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_d7e4352df2584fa5ca72d4bac8484be103431864.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_56e3a46a386511beee36ac642175aaa68d233ef9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fabian\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_e79dc3c5935151f1310efc4d0c2923bb5e409901.jar" />
+    </item>
+
+</items>
