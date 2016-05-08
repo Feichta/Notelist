@@ -23,18 +23,18 @@
         <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_ba97ce6e4bd9ec89a3b05837796a56c51dfa0c02.jar" />
     </item>
     <item
-        jar="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_d7e4352df2584fa5ca72d4bac8484be103431864.jar" />
-    </item>
-    <item
         jar="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
         <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_56e3a46a386511beee36ac642175aaa68d233ef9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\Fabian\Desktop\AndroidStudioProjects\Notelist\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_d7e4352df2584fa5ca72d4bac8484be103431864.jar" />
     </item>
     <item
         jar="C:\Users\Fabian\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
