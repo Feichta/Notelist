@@ -20,55 +20,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dca9549f-cc91-428a-bbfb-43ac64b77e07" name="Default" comment="Implemented 'DONE' button">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/16614670258806/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/16996409707828/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/17262891615805/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/17410149669079/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/17480519095956/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/18845809177591/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/19060529743619/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/19899482873189/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/19913699196993/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/19948179710566/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/19981361582015/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/20043206421626/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/20118083940848/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/20163439032753/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/FachNotenActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/FachNotenActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/NoteNeuAendernActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/NoteNeuAendernActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/NoteNeuAendernActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/NoteNeuAendernActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/NotenAppActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/NotenAppActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/UeberActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/UeberActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/UeberAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ffeichta/notenliste/gui/UeberAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+    <list default="true" id="dca9549f-cc91-428a-bbfb-43ac64b77e07" name="Default" comment="Replaced DatePicker with DatePickerDialog">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/ffeichta/notenliste/gui/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/ffeichta/notenliste/gui/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/noteneuaendern.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/noteneuaendern.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v21/values-v21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ffeichta/notenliste/gui/NoteNeuAendernActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ffeichta/notenliste/gui/NoteNeuAendernActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/noteneuaendern.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/noteneuaendern.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
     </list>
     <ignored path="Notelist.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2376,7 +2329,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462991071378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Replaced DatePicker with DatePickerDialog">
+      <created>1462996288455</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1462996288455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2428,7 +2387,9 @@
     <MESSAGE value="Support for Android Studio 2.0 +compileSdkVersion" />
     <MESSAGE value="Support for Android Studio 2.0" />
     <MESSAGE value="Implemented 'DONE' button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented 'DONE' button" />
+    <MESSAGE value="Replaced DatePicker with DatePickerDialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced DatePicker with DatePickerDialog" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
