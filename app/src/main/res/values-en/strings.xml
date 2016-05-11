@@ -39,9 +39,8 @@
     <string name="fachneuaendern_namelehrperson">Name of teacher</string>
 
     <!-- NOTENEUAENDERN -->
-    <string name="noteneuaendern_neue_note">New grade</string>
-    <string name="noteneuaendern_note_aendern">Change grade</string>
-    <string name="noteneuaendern_fertig">Finish</string>
+    <string name="noteneuaendern_neue_note">New grade in\u0020</string>
+    <string name="noteneuaendern_note_aendern">Change grade in\u0020</string>
     <string name="noteneuaendern_beschreibung">Description</string>
     <string name="noteneuaendern_note">Grade</string>
     <string name="noteneuaendern_gewichtung">Weighting</string>

@@ -4,8 +4,9 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.SeekBar;
@@ -25,13 +26,11 @@ import java.util.Hashtable;
 public class NoteNeuAendernActivity extends Activity {
 
     // GUI Komponenten
-    protected TextView titelTextView = null;
     protected EditText beschreibungEditText = null;
     protected EditText noteEditText = null;
     protected TextView gewichtungProzentTextView = null;
     protected SeekBar gewichtungSeekBar = null;
     protected DatePicker datePickerDatePicker = null;
-    protected Button fertigButton = null;
     protected TextView beschreibungFehlerTextView = null;
     protected TextView noteFehlerTextView = null;
 
@@ -54,7 +53,6 @@ public class NoteNeuAendernActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.noteneuaendern);
 
-        titelTextView = (TextView) findViewById(R.id.noteneuaendern_titel);
         beschreibungEditText = (EditText) findViewById(R.id.noteneuaendern_beschreibung);
         beschreibungEditText.setFocusableInTouchMode(true);
         beschreibungEditText.requestFocus();
@@ -62,23 +60,24 @@ public class NoteNeuAendernActivity extends Activity {
         gewichtungProzentTextView = (TextView) findViewById(R.id.noteneuaendern_prozent);
         gewichtungSeekBar = (SeekBar) findViewById(R.id.noteneuaendern_gewichtung);
         datePickerDatePicker = (DatePicker) findViewById(R.id.noteneuaendern_date);
-        fertigButton = (Button) findViewById(R.id.neuenote_button);
-        beschreibungFehlerTextView = (TextView) findViewById(R.id.noteneuaendern_fehler_beschreibung);
+        beschreibungFehlerTextView = (TextView) findViewById(R.id
+                .noteneuaendern_fehler_beschreibung);
         noteFehlerTextView = (TextView) findViewById(R.id.noteneuaendern_fehler_note);
 
         int nummerNote = getIntent().getIntExtra("nummerNote", -1);
         nummerFach = getIntent().getIntExtra("nummerFach", -1);
-        getActionBar().setTitle(
-                DBZugriffHelper.getInstance(NoteNeuAendernActivity.this)
-                        .getFach(nummerFach).getName());
 
         if (nummerNote == -1) {
             // Neue Note wird eingegeben
             note = new Note();
-            titelTextView.setText(R.string.noteneuaendern_neue_note);
+            getActionBar().setTitle(getResources().getString(R.string.noteneuaendern_neue_note) +
+                    DBZugriffHelper.getInstance(NoteNeuAendernActivity.this)
+                            .getFach(nummerFach).getName());
         } else {
             // Bestehende Note wird geändert
-            titelTextView.setText(R.string.noteneuaendern_note_aendern);
+            getActionBar().setTitle(getResources().getString(R.string.noteneuaendern_note_aendern) +
+                    DBZugriffHelper.getInstance(NoteNeuAendernActivity.this)
+                            .getFach(nummerFach).getName());
             // Hole zu ändernde Note aus der Datenbank
             note = DBZugriffHelper.getInstance(this).getNote(nummerNote);
 
@@ -108,9 +107,18 @@ public class NoteNeuAendernActivity extends Activity {
                         // Do nothing
                     }
                 });
+    }
 
-        fertigButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.fertigmenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.fertigmenu_fertig:
                 if (originalBackground == null) {
                     originalBackground = beschreibungEditText.getBackground();
                 }
@@ -192,7 +200,11 @@ public class NoteNeuAendernActivity extends Activity {
                     NoteNeuAendernActivity.this.setResult(RESULT_OK);
                     NoteNeuAendernActivity.this.finish();
                 }
-            }
-        });
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+
+        }
     }
 }

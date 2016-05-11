@@ -24,9 +24,8 @@
     <string name="error">Errore</string>
     <string name="fachaendernloeschenmenu_fach_aendern">Cambiare materia scolastica</string>
     <string name="fachaendernloeschenmenu_fach_loeschen">Eliminare materia scolastica</string>
-    <string name="fachneuaendern_fachaendern">Cambiare materia scolastica</string>
-    <string name="fachneuaendern_fachhinzufuegen">Aggiungere materia scolastica</string>
-    <string name="fachneuaendern_fertig">Finito</string>
+    <string name="fachneuaendern_fachaendern">Cambiare materia scolastica\u0020</string>
+    <string name="fachneuaendern_fachhinzufuegen">Aggiungere materia scolastica in\u0020</string>
     <string name="fachneuaendern_namefach">Nome della materia scolastica</string>
     <string name="fachneuaendern_namelehrperson">Nome dell\' insegnante</string>
     <string name="fachnotenmain_durchschnitt">Media di</string>

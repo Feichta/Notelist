@@ -253,11 +253,10 @@
     <string name="notenappmenu_ueber">Über</string>
     <string name="noteneuaendern_beschreibung">Beschreibung</string>
     <string name="noteneuaendern_datum">Datum</string>
-    <string name="noteneuaendern_fertig">Fertig</string>
     <string name="noteneuaendern_gewichtung">Gewichtung</string>
-    <string name="noteneuaendern_neue_note">Neue Note</string>
+    <string name="noteneuaendern_neue_note">Neue Note in\u0020</string>
     <string name="noteneuaendern_note">Note</string>
-    <string name="noteneuaendern_note_aendern">Note ändern</string>
+    <string name="noteneuaendern_note_aendern">Note ändern in\u0020</string>
     <string name="ok">OK</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ueberactivity_bewerten">Bewerte diese App</string>

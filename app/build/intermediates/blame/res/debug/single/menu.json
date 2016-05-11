@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\menu\\fachnotenmenu.xml"
     },
     {
+        "merged": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fertigmenu.xml",
+        "source": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\menu\\fertigmenu.xml"
+    },
+    {
         "merged": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fachaendernloeschenmenu.xml",
         "source": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\menu\\fachaendernloeschenmenu.xml"
     }
