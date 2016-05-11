@@ -77,6 +77,9 @@ public class NoteNeuAendernActivity extends Activity {
             getActionBar().setTitle(getResources().getString(R.string.noteneuaendern_neue_note) +
                     DBZugriffHelper.getInstance(NoteNeuAendernActivity.this)
                             .getFach(nummerFach).getName());
+            cal = Calendar.getInstance();
+            SimpleDateFormat sdf = new SimpleDateFormat("EEEE, dd MMM, yyyy");
+            datumButton.setText(sdf.format(note.getDatum()));
         } else {
             // Bestehende Note wird geändert
             getActionBar().setTitle(getResources().getString(R.string.noteneuaendern_note_aendern) +
