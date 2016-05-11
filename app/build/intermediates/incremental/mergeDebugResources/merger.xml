@@ -1409,7 +1409,7 @@
     </style><style name="AppThemeDialog" parent="android:Theme.Material.Light.Dialog">
         <item name="android:textColorPrimary">@color/text_primary</item>
         <item name="android:colorAccent">@color/primary</item>
-    </style><style name="AppThemDatePicker" parent="android:Theme.Material.Light">
+    </style><style name="AppThemDatePicker" parent="android:Theme.Material.Light.Dialog">
         <item name="android:textColorPrimary">@color/text_primary</item>
         <item name="android:colorAccent">@color/primary</item>
     </style><style name="AppThemeWithoutActionBar" parent="android:Theme.Material.Light.Dialog.NoActionBar.MinWidth">

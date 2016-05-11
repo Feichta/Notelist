@@ -140,18 +140,12 @@
                 android:text="@string/noteneuaendern_datum"
                 android:textAppearance="?android:attr/textAppearanceMedium"/>
 
-            <DatePicker
-                android:id="@+id/noteneuaendern_date"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignBottom="@+id/noteneuaendern_fehler_beschreibung"
-                android:layout_alignLeft="@+id/noteneuaendern_beschreibung"
-                android:layout_alignStart="@+id/noteneuaendern_beschreibung"
-                android:datePickerMode="calendar"
-                android:theme="@style/AppThemDatePicker"/>
-
+            <Button
+                android:id="@+id/noteneuaendern_datum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_horizontal"
+                android:text=""/>
         </LinearLayout>
-
     </ScrollView>
-
 </LinearLayout>

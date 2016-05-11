@@ -1,12 +1,15 @@
 package com.ffeichta.notenliste.gui;
 
 import android.app.Activity;
+import android.app.DatePickerDialog;
+import android.app.Dialog;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.SeekBar;
@@ -15,6 +18,7 @@ import android.widget.TextView;
 import com.ffeichta.notenliste.model.DBZugriffHelper;
 import com.ffeichta.notenliste.model.Note;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Hashtable;
 
@@ -25,26 +29,26 @@ import java.util.Hashtable;
  */
 public class NoteNeuAendernActivity extends Activity {
 
+    // ID des DatePickerDialogs
+    private static final int ID = 1;
     // GUI Komponenten
     protected EditText beschreibungEditText = null;
     protected EditText noteEditText = null;
     protected TextView gewichtungProzentTextView = null;
     protected SeekBar gewichtungSeekBar = null;
-    protected DatePicker datePickerDatePicker = null;
     protected TextView beschreibungFehlerTextView = null;
     protected TextView noteFehlerTextView = null;
-
+    protected Button datumButton = null;
     // Enthält jene Note, welche erstellt/bearbeitet wird
     protected Note note = null;
-
     // Nummer des aktuellen Faches
     protected int nummerFach;
-
-    // Über Calendar Objekt wird das Datum einer bestehenden Note in die
+    // ?ber Calendar Objekt wird das Datum einer bestehenden Note in die
     // TextViews ausgegeben oder das eingegebene Datum wird zu einer Note
     // hinzugefügt
     protected Calendar cal = null;
-
+    // Listener f?r DatePickerDialog
+    DatePickerDialog.OnDateSetListener datePickerListener = null;
     // Standard Hintergrund eines EditText
     private Drawable originalBackground = null;
 
@@ -59,7 +63,7 @@ public class NoteNeuAendernActivity extends Activity {
         noteEditText = (EditText) findViewById(R.id.noteneuaendern_note);
         gewichtungProzentTextView = (TextView) findViewById(R.id.noteneuaendern_prozent);
         gewichtungSeekBar = (SeekBar) findViewById(R.id.noteneuaendern_gewichtung);
-        datePickerDatePicker = (DatePicker) findViewById(R.id.noteneuaendern_date);
+        datumButton = (Button) findViewById(R.id.noteneuaendern_datum);
         beschreibungFehlerTextView = (TextView) findViewById(R.id
                 .noteneuaendern_fehler_beschreibung);
         noteFehlerTextView = (TextView) findViewById(R.id.noteneuaendern_fehler_note);
@@ -82,13 +86,13 @@ public class NoteNeuAendernActivity extends Activity {
             note = DBZugriffHelper.getInstance(this).getNote(nummerNote);
 
             // Fülle Eingabefelder mit der Note
-            cal = note.getDatumCalendar();
-            datePickerDatePicker.updateDate(cal.get(Calendar.YEAR),
-                    cal.get(Calendar.MONTH), cal.get(Calendar.DAY_OF_MONTH));
             beschreibungEditText.setText(note.getBeschreibung());
             noteEditText.setText(String.valueOf(note.getNote()));
             gewichtungSeekBar.setProgress(note.getGewichtung() / 5 - 1);
             gewichtungProzentTextView.setText(note.getGewichtung() + "%");
+            cal = note.getDatumCalendar();
+            SimpleDateFormat sdf = new SimpleDateFormat("EEEE, dd MMM, yyyy");
+            datumButton.setText(sdf.format(note.getDatum()));
         }
 
         gewichtungSeekBar
@@ -107,6 +111,42 @@ public class NoteNeuAendernActivity extends Activity {
                         // Do nothing
                     }
                 });
+
+        datumButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                showDialog(ID);
+            }
+        });
+
+        datePickerListener = new DatePickerDialog.OnDateSetListener() {
+            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                // Das eingegebene Datum wird in Calendar Object geschrieben
+                cal = Calendar.getInstance();
+                cal.set(Calendar.YEAR, year);
+                cal.set(Calendar.MONTH, monthOfYear);
+                cal.set(Calendar.DAY_OF_MONTH,
+                        dayOfMonth);
+                cal.set(Calendar.HOUR, 0);
+                cal.set(Calendar.MINUTE, 0);
+                cal.set(Calendar.SECOND, 0);
+                cal.set(Calendar.MILLISECOND, 0);
+
+                // Der Text im Button wird ge?ndert und das Datum in die Note geschrieben
+                SimpleDateFormat sdf = new SimpleDateFormat("EEEE, MMM dd, yyyy");
+                datumButton.setText(sdf.format(cal.getTimeInMillis()));
+                note.setDatum(cal.getTimeInMillis());
+            }
+        };
+    }
+
+    @Override
+    protected Dialog onCreateDialog(int id) {
+        Dialog ret = null;
+        if (id == ID) {
+            ret = new DatePickerDialog(this, R.style.AppThemDatePicker, datePickerListener, cal
+                    .get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DAY_OF_MONTH));
+        }
+        return ret;
     }
 
     @Override
@@ -131,17 +171,6 @@ public class NoteNeuAendernActivity extends Activity {
                 noteEditText.setBackgroundDrawable(originalBackground);
                 noteFehlerTextView.setVisibility(View.GONE);
 
-                // Das eingegebene Datum wird in Calendar Object geschrieben
-                cal = Calendar.getInstance();
-                cal.set(Calendar.YEAR, datePickerDatePicker.getYear());
-                cal.set(Calendar.MONTH, datePickerDatePicker.getMonth());
-                cal.set(Calendar.DAY_OF_MONTH,
-                        datePickerDatePicker.getDayOfMonth());
-                cal.set(Calendar.HOUR, 0);
-                cal.set(Calendar.MINUTE, 0);
-                cal.set(Calendar.SECOND, 0);
-                cal.set(Calendar.MILLISECOND, 0);
-
                 // Die eingegebenen Werte werden in das Fach-Objekt geschrieben
                 note.setBeschreibung(String.valueOf(beschreibungEditText
                         .getText()));
@@ -158,13 +187,13 @@ public class NoteNeuAendernActivity extends Activity {
                     note.setNote(-1);
                 }
 
-                int erfolg = 0;
+                int erfolg;
                 if (note.getNummer() < 0) {
                     // Aufnehmen der neuen Note in die Datenbank
                     erfolg = DBZugriffHelper.getInstance(
                             NoteNeuAendernActivity.this).hinzufuegenNote(note);
                 } else {
-                    // Ändern der bestehenden Note in der Datenbank
+                    // Andern der bestehenden Note in der Datenbank
                     erfolg = DBZugriffHelper.getInstance(
                             NoteNeuAendernActivity.this).aendernNote(note);
                 }
