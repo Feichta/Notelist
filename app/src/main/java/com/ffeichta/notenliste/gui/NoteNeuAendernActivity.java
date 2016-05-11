@@ -79,7 +79,7 @@ public class NoteNeuAendernActivity extends Activity {
                             .getFach(nummerFach).getName());
             cal = Calendar.getInstance();
             SimpleDateFormat sdf = new SimpleDateFormat("EEEE, dd MMM, yyyy");
-            datumButton.setText(sdf.format(note.getDatum()));
+            datumButton.setText(sdf.format(cal.getTimeInMillis()));
         } else {
             // Bestehende Note wird geändert
             getActionBar().setTitle(getResources().getString(R.string.noteneuaendern_note_aendern) +
