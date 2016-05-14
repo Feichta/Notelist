@@ -11,7 +11,14 @@
                     "endOffset": 95
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 44,
+                        "endOffset": 157
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 141
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 311,
+                        "endColumn": 45,
+                        "endOffset": 352
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 181
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 39,
+                        "endOffset": 244
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 261
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2542,
+                        "endColumn": 79,
+                        "endOffset": 2617
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2460,
+                        "endColumn": 80,
+                        "endOffset": 2536
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 412
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1719,
+                        "endColumn": 69,
+                        "endOffset": 1784
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 483
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1647,
+                        "endColumn": 70,
+                        "endOffset": 1713
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 540
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1790,
+                        "endColumn": 56,
+                        "endOffset": 1842
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1848,
+                        "endColumn": 67,
+                        "endOffset": 1911
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1917,
+                        "endColumn": 73,
+                        "endOffset": 1986
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1226,
+                        "endColumn": 65,
+                        "endOffset": 1287
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 891
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endColumn": 142,
+                        "endOffset": 1465
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 1035
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1471,
+                        "endColumn": 143,
+                        "endOffset": 1610
+                    }
                 }
             },
             {
@@ -167,7 +258,14 @@
                     "endOffset": 1096
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2746,
+                        "endColumn": 60,
+                        "endOffset": 2802
+                    }
                 }
             },
             {
@@ -179,7 +277,14 @@
                     "endOffset": 1157
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2808,
+                        "endColumn": 60,
+                        "endOffset": 2864
+                    }
                 }
             },
             {
@@ -191,7 +296,14 @@
                     "endOffset": 1250
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2652,
+                        "endColumn": 92,
+                        "endOffset": 2740
+                    }
                 }
             },
             {
@@ -203,7 +315,14 @@
                     "endOffset": 1304
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2870,
+                        "endColumn": 53,
+                        "endOffset": 2919
+                    }
                 }
             },
             {
@@ -215,7 +334,14 @@
                     "endOffset": 1375
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3434,
+                        "endColumn": 70,
+                        "endOffset": 3500
+                    }
                 }
             },
             {
@@ -227,7 +353,14 @@
                     "endOffset": 1460
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3506,
+                        "endColumn": 84,
+                        "endOffset": 3586
+                    }
                 }
             },
             {
@@ -239,7 +372,14 @@
                     "endOffset": 1522
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3592,
+                        "endColumn": 61,
+                        "endOffset": 3649
+                    }
                 }
             },
             {
@@ -251,7 +391,14 @@
                     "endOffset": 1600
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2960,
+                        "endColumn": 77,
+                        "endOffset": 3033
+                    }
                 }
             },
             {
@@ -263,7 +410,14 @@
                     "endOffset": 1679
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3039,
+                        "endColumn": 78,
+                        "endOffset": 3113
+                    }
                 }
             },
             {
@@ -275,7 +429,14 @@
                     "endOffset": 1785
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 105,
+                        "endOffset": 780
+                    }
                 }
             },
             {
@@ -287,7 +448,14 @@
                     "endOffset": 1876
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 508,
+                        "endColumn": 90,
+                        "endOffset": 594
+                    }
                 }
             },
             {
@@ -299,7 +467,14 @@
                     "endOffset": 1959
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 786,
+                        "endColumn": 82,
+                        "endOffset": 864
+                    }
                 }
             },
             {
@@ -311,7 +486,14 @@
                     "endOffset": 2022
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 444,
+                        "endColumn": 62,
+                        "endOffset": 502
+                    }
                 }
             },
             {
@@ -323,7 +505,14 @@
                     "endOffset": 2100
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 600,
+                        "endColumn": 77,
+                        "endOffset": 673
+                    }
                 }
             },
             {
@@ -335,7 +524,14 @@
                     "endOffset": 2156
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 387,
+                        "endColumn": 55,
+                        "endOffset": 438
+                    }
                 }
             },
             {
@@ -347,7 +543,14 @@
                     "endOffset": 2304
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 147,
+                        "endOffset": 1046
+                    }
                 }
             },
             {
@@ -359,7 +562,14 @@
                     "endOffset": 2447
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1052,
+                        "endColumn": 142,
+                        "endOffset": 1190
+                    }
                 }
             },
             {
@@ -371,7 +581,14 @@
                     "endOffset": 2507
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3226,
+                        "endColumn": 59,
+                        "endOffset": 3281
+                    }
                 }
             },
             {
@@ -383,7 +600,14 @@
                     "endOffset": 2585
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3147,
+                        "endColumn": 77,
+                        "endOffset": 3220
+                    }
                 }
             },
             {
@@ -395,7 +619,14 @@
                     "endOffset": 2645
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3287,
+                        "endColumn": 59,
+                        "endOffset": 3342
+                    }
                 }
             },
             {
@@ -407,7 +638,14 @@
                     "endOffset": 2698
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3348,
+                        "endColumn": 52,
+                        "endOffset": 3396
+                    }
                 }
             },
             {
@@ -419,7 +657,14 @@
                     "endOffset": 2766
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2175,
+                        "endColumn": 67,
+                        "endOffset": 2238
+                    }
                 }
             },
             {
@@ -431,7 +676,14 @@
                     "endOffset": 2820
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2364,
+                        "endColumn": 53,
+                        "endOffset": 2413
+                    }
                 }
             },
             {
@@ -443,7 +695,14 @@
                     "endOffset": 2884
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2299,
+                        "endColumn": 63,
+                        "endOffset": 2358
+                    }
                 }
             },
             {
@@ -455,7 +714,14 @@
                     "endOffset": 2956
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2023,
+                        "endColumn": 71,
+                        "endOffset": 2090
+                    }
                 }
             },
             {
@@ -467,7 +733,14 @@
                     "endOffset": 3010
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2244,
+                        "endColumn": 53,
+                        "endOffset": 2293
+                    }
                 }
             },
             {
@@ -479,7 +752,14 @@
                     "endOffset": 3088
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2096,
+                        "endColumn": 77,
+                        "endOffset": 2169
+                    }
                 }
             },
             {
@@ -491,7 +771,14 @@
                     "endOffset": 3122
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 82,
+                        "endColumn": 33,
+                        "endOffset": 111
+                    }
                 }
             },
             {
@@ -503,7 +790,14 @@
                     "endOffset": 3187
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 3922,
+                        "endColumn": 64,
+                        "endOffset": 3982
+                    }
                 }
             },
             {
@@ -515,7 +809,14 @@
                     "endOffset": 3242
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 3866,
+                        "endColumn": 54,
+                        "endOffset": 3916
+                    }
                 }
             },
             {
@@ -527,7 +828,14 @@
                     "endOffset": 3305
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3743,
+                        "endColumn": 62,
+                        "endOffset": 3801
+                    }
                 }
             },
             {
@@ -535,59 +843,113 @@
                     "startLine": 46,
                     "startColumn": 4,
                     "startOffset": 3310,
-                    "endColumn": 62,
-                    "endOffset": 3368
+                    "endColumn": 56,
+                    "endOffset": 3362
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 3988,
+                        "endColumn": 56,
+                        "endOffset": 4040
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 3373,
-                    "endColumn": 57,
-                    "endOffset": 3426
+                    "startOffset": 3367,
+                    "endColumn": 62,
+                    "endOffset": 3425
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 4076,
+                        "endColumn": 62,
+                        "endOffset": 4134
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 3431,
+                    "startOffset": 3430,
                     "endColumn": 57,
-                    "endOffset": 3484
+                    "endOffset": 3483
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3684,
+                        "endColumn": 57,
+                        "endOffset": 3737
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 3489,
-                    "endColumn": 39,
-                    "endOffset": 3524
+                    "startOffset": 3488,
+                    "endColumn": 57,
+                    "endOffset": 3541
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3807,
+                        "endColumn": 57,
+                        "endOffset": 3860
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 3529,
-                    "endColumn": 44,
-                    "endOffset": 3569
+                    "startOffset": 3546,
+                    "endColumn": 39,
+                    "endOffset": 3581
                 },
                 "from": {
-                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml"
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 250,
+                        "endColumn": 39,
+                        "endOffset": 285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3586,
+                    "endColumn": 44,
+                    "endOffset": 3626
+                },
+                "from": {
+                    "file": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 44,
+                        "endOffset": 203
+                    }
                 }
             }
         ]

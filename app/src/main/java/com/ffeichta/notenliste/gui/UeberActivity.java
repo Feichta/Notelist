@@ -45,6 +45,9 @@ public class UeberActivity extends Activity {
                 R.string.ueberactivity_email), "fabian.feichter@ffeichta.com"));
         items.add(new Item(getResources().getString(
                 R.string.ueberactivity_bewerten), "Google Play"));
+        items.add(new Item(getResources().getString(
+                R.string.ueberactivity_lizenz), "Icon: iconfinder.com / Ivan Boyko / CC " +
+                "BY 3.0 / used with changes"));
 
         // Custom ArrayAdapter
         UeberAdapter adapter = new UeberAdapter(this, items);
@@ -91,7 +94,8 @@ public class UeberActivity extends Activity {
                                 try {
                                     Intent googlePlayDirect = new Intent(
                                             Intent.ACTION_VIEW,
-                                            Uri.parse("market://details?id=com.ffeichta.notenliste"));
+                                            Uri.parse("market://details?id=com.ffeichta" +
+                                                    ".notenliste"));
                                     startActivity(googlePlayDirect);
                                 } catch (android.content.ActivityNotFoundException anfe) {
                                     // Wenn ActivityNotFoundException geworfen wird,
@@ -100,8 +104,24 @@ public class UeberActivity extends Activity {
                                     // geöffnet
                                     Intent googlePlayBrowser = new Intent(
                                             Intent.ACTION_VIEW,
-                                            Uri.parse("https://play.google.com/store/apps/details?id=com.ffeichta.notenliste"));
+                                            Uri.parse("https://play.google" +
+                                                    ".com/store/apps/details?id=com.ffeichta" +
+                                                    ".notenliste"));
                                     startActivity(googlePlayBrowser);
+                                }
+                                break;
+
+                            case 5:
+                                try {
+                                    Intent website = new Intent(Intent.ACTION_VIEW,
+                                            Uri.parse("https://creativecommons.org/licenses/by/3" +
+                                                    ".0/"));
+                                    startActivity(website);
+                                } catch (android.content.ActivityNotFoundException anfe) {
+                                    // Wenn ActivityNotFoundException geworfen wird,
+                                    // dann ist kein Browser auf dem Gerät
+                                    // installiert, in diesem Fall wird nichts
+                                    // gemacht
                                 }
                                 break;
 

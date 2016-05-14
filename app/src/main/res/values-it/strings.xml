@@ -34,13 +34,13 @@
     <!-- FACHNEUAENDERN -->
     <string name="fachneuaendern_fachhinzufuegen">Aggiungere materia scolastica in\u0020</string>
     <string name="fachneuaendern_fachaendern">Cambiare materia scolastica\u0020</string>
+    <string name="fachneuaendern_fertig">Finito</string>
     <string name="fachneuaendern_namefach">Nome della materia scolastica</string>
     <string name="fachneuaendern_namelehrperson">Nome dell\' insegnante</string>
 
     <!-- NOTENEUAENDERN -->
-    <string name="noteneuaendern_neue_note">Nuovo voto</string>
-    <string name="noteneuaendern_note_aendern">Cambiare voto</string>
-    <string name="noteneuaendern_fertig">Finito</string>
+    <string name="noteneuaendern_neue_note">Nuovo voto in\u0020</string>
+    <string name="noteneuaendern_note_aendern">Cambiare voto in\u0020</string>
     <string name="noteneuaendern_beschreibung">Descrizione</string>
     <string name="noteneuaendern_note">Voto</string>
     <string name="noteneuaendern_gewichtung">Ponderazione</string>
@@ -77,6 +77,7 @@
     <string name="ueberactivity_website">Website</string>
     <string name="ueberactivity_email">E-Mail</string>
     <string name="ueberactivity_bewerten">Valuta questa app</string>
+    <string name="ueberactivity_lizenz">Licenza</string>
 
     <!-- UEBERACTIVITY -->
     <string name="ueberactivity_titel">Informazioni su elenco voti</string>

@@ -1,10 +1,14 @@
 package com.ffeichta.notenliste.gui;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -30,6 +34,10 @@ import java.util.ArrayList;
  * @author Feichter Fabian
  */
 public class NotenAppActivity extends Activity {
+
+    // ID zum anfordern der Berechtigungen
+    private static final int REQUEST_PERMISSION_EXPORTIEREN = 1;
+    private static final int REQUEST_PERMISSION_IMPORTIEREN = 2;
 
     // GUI Komponenten
     protected ListView listeFaecherListView = null;
@@ -154,83 +162,41 @@ public class NotenAppActivity extends Activity {
                 break;
 
             case R.id.notenappmenu_exportieren:
-                int erfolgExport = DBZugriffHelper.getInstance(
-                        NotenAppActivity.this).exportDB();
-                switch (erfolgExport) {
-                    case 0:
-                        String msg = getResources().getString(
-                                R.string.notenappmain_backup_erfolgreich)
-                                + " " + DBZugriffHelper.DATENBANK_BACKUP_PFAD;
-                        Toast.makeText(NotenAppActivity.this, msg, Toast.LENGTH_SHORT)
-                                .show();
-                        break;
-
-                    case -1:
-                        Toast.makeText(NotenAppActivity.this,
-                                R.string.notenappmain_backup_berechtigung,
-                                Toast.LENGTH_SHORT).show();
-                        break;
-
-                    case -2:
-                        Toast.makeText(NotenAppActivity.this, R.string.error,
-                                Toast.LENGTH_SHORT).show();
-                        break;
+                if (ContextCompat.checkSelfPermission(this,
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                        != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(this,
+                            new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                            REQUEST_PERMISSION_EXPORTIEREN);
+                } else {
+                    exportierenDatenbank();
                 }
+                ret = true;
                 break;
 
             case R.id.notenappmenu_importieren:
-                AlertDialog.Builder dialogImport = new AlertDialog.Builder(this);
-                dialogImport.setTitle(R.string.warnung);
-                dialogImport.setMessage(R.string.notenappmainmenu_importieren);
-                dialogImport.setPositiveButton(R.string.ok,
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                int erfolgImport = DBZugriffHelper.getInstance(
-                                        NotenAppActivity.this).importDB();
-                                switch (erfolgImport) {
-                                    case 0:
-                                        Toast.makeText(
-                                                NotenAppActivity.this,
-                                                R.string.notenappmain_import_erfolgreich,
-                                                Toast.LENGTH_SHORT).show();
-                                        break;
-
-                                    case -1:
-                                        Toast.makeText(
-                                                NotenAppActivity.this,
-                                                getResources()
-                                                        .getString(
-                                                                R.string.notenappmain_backup_nicht_vorhanden)
-                                                        + " "
-                                                        + DBZugriffHelper.DATENBANK_BACKUP_PFAD,
-                                                Toast.LENGTH_SHORT).show();
-                                        break;
-
-                                    case -2:
-                                        Toast.makeText(NotenAppActivity.this,
-                                                R.string.error, Toast.LENGTH_SHORT)
-                                                .show();
-                                        break;
-
-                                }
-                                // Activity wird neu erstellt um die Änderungen
-                                // sichtbar zu machen
-                                onCreate(null);
-                            }
-                        });
-                dialogImport.setNegativeButton(R.string.abbrechen, null);
-                dialogImport.setIconAttribute(android.R.attr.alertDialogIcon);
-                dialogImport.show();
+                if (ContextCompat.checkSelfPermission(this,
+                        Manifest.permission.READ_EXTERNAL_STORAGE)
+                        != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(this,
+                            new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                            REQUEST_PERMISSION_IMPORTIEREN);
+                } else {
+                    importierenDatenbank();
+                }
+                ret = true;
                 break;
 
             case R.id.notenappmenu_ueber:
                 Intent i = new Intent(NotenAppActivity.this, UeberActivity.class);
                 startActivityForResult(i, R.layout.notenappmain);
+                ret = true;
                 break;
 
             default:
                 ret = super.onOptionsItemSelected(item);
         }
+
         return ret;
     }
 
@@ -315,6 +281,38 @@ public class NotenAppActivity extends Activity {
     }
 
     /**
+     * Wird aufgerufen, nachdem eine Berechtigung angefragt wurde. Es spielt keine Rolle, ob der
+     * Benuter der Berechtigung zugestimmt hat oder nicht
+     *
+     * @param requestCode
+     * @param permissions
+     * @param grantResults
+     */
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case REQUEST_PERMISSION_EXPORTIEREN: {
+                // Array ist leer, d.h der Benutzer hat abgelehnt
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    exportierenDatenbank();
+                }
+                return;
+            }
+
+            case REQUEST_PERMISSION_IMPORTIEREN: {
+                // Array ist leer, d.h der Benutzer hat abgelehnt
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    importierenDatenbank();
+                }
+                return;
+            }
+        }
+    }
+
+    /**
      * Berechnet den Durchschnitt aller Fächer und gibt diesen in der TextView
      * am unteren Rand aus. Es wird beachtet, dass es Fächer ohne Noten geben
      * kann
@@ -340,5 +338,81 @@ public class NotenAppActivity extends Activity {
         durchschnittTextView.setText(getResources().getString(
                 R.string.notenappmain_durchschnitt)
                 + " " + avg);
+    }
+
+    /**
+     * Exportiert alle F?cher mit ihren Noten in eine .db Datei
+     */
+    private void exportierenDatenbank() {
+        int erfolgExport = DBZugriffHelper.getInstance(
+                NotenAppActivity.this).exportDB();
+        switch (erfolgExport) {
+            case 0:
+                String msg = getResources().getString(
+                        R.string.notenappmain_backup_erfolgreich)
+                        + " " + DBZugriffHelper.DATENBANK_BACKUP_PFAD;
+                Toast.makeText(NotenAppActivity.this, msg, Toast.LENGTH_SHORT)
+                        .show();
+                break;
+
+            case -1:
+                Toast.makeText(NotenAppActivity.this,
+                        R.string.notenappmain_backup_berechtigung,
+                        Toast.LENGTH_SHORT).show();
+                break;
+
+            case -2:
+                Toast.makeText(NotenAppActivity.this, R.string.error,
+                        Toast.LENGTH_SHORT).show();
+                break;
+        }
+    }
+
+    /**
+     * Importiert alle F?cher mit ihren Noten von einer .db Datei
+     */
+    private void importierenDatenbank() {
+        AlertDialog.Builder dialogImport = new AlertDialog.Builder(this);
+        dialogImport.setTitle(R.string.warnung);
+        dialogImport.setMessage(R.string.notenappmainmenu_importieren);
+        dialogImport.setPositiveButton(R.string.ok,
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        int erfolgImport = DBZugriffHelper.getInstance(
+                                NotenAppActivity.this).importDB();
+                        switch (erfolgImport) {
+                            case 0:
+                                Toast.makeText(
+                                        NotenAppActivity.this,
+                                        R.string.notenappmain_import_erfolgreich,
+                                        Toast.LENGTH_SHORT).show();
+                                break;
+
+                            case -1:
+                                Toast.makeText(
+                                        NotenAppActivity.this,
+                                        getResources()
+                                                .getString(
+                                                        R.string.notenappmain_backup_nicht_vorhanden)
+                                                + " "
+                                                + DBZugriffHelper.DATENBANK_BACKUP_PFAD,
+                                        Toast.LENGTH_SHORT).show();
+                                break;
+
+                            case -2:
+                                Toast.makeText(NotenAppActivity.this,
+                                        R.string.error, Toast.LENGTH_SHORT)
+                                        .show();
+                                break;
+
+                        }
+                        // Activity wird neu erstellt um die Änderungen
+                        // sichtbar zu machen
+                        onCreate(null);
+                    }
+                });
+        dialogImport.setNegativeButton(R.string.abbrechen, null);
+        dialogImport.setIconAttribute(android.R.attr.alertDialogIcon);
+        dialogImport.show();
     }
 }

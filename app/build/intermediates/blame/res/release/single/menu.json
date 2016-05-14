@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\res\\merged\\release\\menu\\noteaendernloeschenmenu.xml",
+        "source": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\menu\\noteaendernloeschenmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\res\\merged\\release\\menu\\fachaendernloeschenmenu.xml",
+        "source": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\menu\\fachaendernloeschenmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\res\\merged\\release\\menu\\fachnotenmenu.xml",
+        "source": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\menu\\fachnotenmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\res\\merged\\release\\menu\\notenappmenu.xml",
+        "source": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\menu\\notenappmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\build\\intermediates\\res\\merged\\release\\menu\\fertigmenu.xml",
+        "source": "C:\\Users\\Fabian\\Desktop\\AndroidStudioProjects\\Notelist\\app\\src\\main\\res\\menu\\fertigmenu.xml"
+    }
+]

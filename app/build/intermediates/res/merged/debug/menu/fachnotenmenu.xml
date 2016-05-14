@@ -5,17 +5,4 @@
     <item
         android:id="@+id/fachnotenmenu_noten_loeschen"
         android:title="@string/fachnotenmenu_noten_loeschen"></item>
-
-    <item
-        android:id="@+id/fachnotenmenu_exportieren"
-        android:title="@string/fachnotenmenu_exportieren"></item>
-
-    <item
-        android:id="@+id/fachnotenmenu_importieren"
-        android:title="@string/fachnotenmenu_importieren"></item>
-
-    <item
-        android:id="@+id/fachnotenmenu_ueber"
-        android:title="@string/fachnotenmenu_ueber"></item>
-
 </menu>

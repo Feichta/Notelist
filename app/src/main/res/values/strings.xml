@@ -77,6 +77,7 @@
     <string name="ueberactivity_website">Website</string>
     <string name="ueberactivity_email">E-Mail</string>
     <string name="ueberactivity_bewerten">Bewerte diese App</string>
+    <string name="ueberactivity_lizenz">Lizenz</string>
 
     <!-- UEBERACTIVITY -->
     <string name="ueberactivity_titel">Über Notenliste</string>

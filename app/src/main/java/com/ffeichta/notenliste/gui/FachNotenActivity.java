@@ -16,7 +16,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.ffeichta.notenliste.model.DBZugriffHelper;
 import com.ffeichta.notenliste.model.Fach;
@@ -35,8 +34,6 @@ public class FachNotenActivity extends Activity {
 
     // GUI Komponenten
     protected ListView listeNotenListView = null;
-    // protected TextView fachNameTextView = null;
-    // protected TextView fachLehrpersonTextView = null;
     protected Button neueNoteButton = null;
     protected TextView durchschnittTextView = null;
 
@@ -170,88 +167,6 @@ public class FachNotenActivity extends Activity {
                 dialog.setNegativeButton(R.string.abbrechen, null);
                 dialog.setIconAttribute(android.R.attr.alertDialogIcon);
                 dialog.show();
-                ret = true;
-                break;
-
-            case R.id.fachnotenmenu_exportieren:
-                int erfolgExport = DBZugriffHelper.getInstance(
-                        FachNotenActivity.this).exportDB();
-                switch (erfolgExport) {
-                    case 0:
-                        Toast.makeText(
-                                FachNotenActivity.this,
-                                getResources().getString(
-                                        R.string.notenappmain_backup_erfolgreich)
-                                        + " " + DBZugriffHelper.DATENBANK_BACKUP_PFAD,
-                                Toast.LENGTH_SHORT).show();
-                        break;
-
-                    case -1:
-                        Toast.makeText(FachNotenActivity.this,
-                                R.string.notenappmain_backup_berechtigung,
-                                Toast.LENGTH_SHORT).show();
-                        break;
-
-                    case -2:
-                        Toast.makeText(FachNotenActivity.this, R.string.error,
-                                Toast.LENGTH_SHORT).show();
-                        break;
-                }
-                ret = true;
-                break;
-
-            case R.id.fachnotenmenu_importieren:
-                AlertDialog.Builder dialogImport = new AlertDialog.Builder(this);
-                dialogImport.setTitle(R.string.warnung);
-                dialogImport.setMessage(R.string.fachnotenmainmenu_importieren);
-                dialogImport.setPositiveButton(R.string.ok,
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                int erfolgImport = DBZugriffHelper.getInstance(
-                                        FachNotenActivity.this).importDB();
-                                switch (erfolgImport) {
-                                    case 0:
-                                        // Es wird zur Main Activity gesprungen, da das
-                                        // aktuelle Fach nicht mehr vorhanden sein
-                                        // könnte
-                                        Intent i = new Intent(FachNotenActivity.this,
-                                                NotenAppActivity.class);
-                                        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                                        startActivity(i);
-                                        Toast.makeText(
-                                                FachNotenActivity.this,
-                                                R.string.notenappmain_import_erfolgreich,
-                                                Toast.LENGTH_SHORT).show();
-                                        break;
-
-                                    case -1:
-                                        Toast.makeText(
-                                                FachNotenActivity.this,
-                                                getResources()
-                                                        .getString(
-                                                                R.string.notenappmain_backup_nicht_vorhanden)
-                                                        + " "
-                                                        + DBZugriffHelper.DATENBANK_BACKUP_PFAD,
-                                                Toast.LENGTH_SHORT).show();
-                                        break;
-
-                                    case -2:
-                                        Toast.makeText(FachNotenActivity.this,
-                                                R.string.error, Toast.LENGTH_SHORT)
-                                                .show();
-                                        break;
-                                }
-                            }
-                        });
-                dialogImport.setNegativeButton(R.string.abbrechen, null);
-                dialogImport.setIconAttribute(android.R.attr.alertDialogIcon);
-                dialogImport.show();
-                ret = true;
-                break;
-
-            case R.id.fachnotenmenu_ueber:
-                Intent i = new Intent(FachNotenActivity.this, UeberActivity.class);
-                startActivityForResult(i, R.layout.notenappmain);
                 ret = true;
                 break;
 
